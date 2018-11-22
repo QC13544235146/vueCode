@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="btn-area" v-if="data.show">
-            <button class="btn">查看健康分析</button>
+            <router-link to="personCenter"><button class="btn">查看健康分析</button></router-link>
         </div>
         <div class="weight-infor" v-else>
             <div class="item" v-for="(item,key) in data.bodyIndex.items" :key="key"  :class="{active:item.active}" @click="unfold(key)">
