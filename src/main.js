@@ -13,7 +13,7 @@ Vue.use(VueRouter)
 const router = new VueRouter({
 	routes
 })
-
+//测试
 new Vue({
 	router
 }).$mount('#app')
